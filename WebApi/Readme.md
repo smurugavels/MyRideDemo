@@ -1,12 +1,12 @@
-﻿# Scope for improvement!
+﻿## Additional Instructions: Focus on Backend
 
-## Setup
+## Inital Setup
 1. Restore packages from Nuget
 2. Code developed in .net Core 5 web-Api
 3. RouteStopDa holds generated Data and returns results from Controller
 4. 
 
-
+## Scope for improvement!
 
 ## Backend Layer: //Improvement
 1. Add Caching layer:
@@ -14,13 +14,12 @@
     2. Clean up past entries from cache
 2. Use BackgroundService to populate Cache
 3. Add more test coverage
-4. SignalR: With Timer auto send Schedules to connected clients on a 15 minute timer.
+4. SignalR: Use Timer / BackgroundService to auto send new Schedules to connected clients on a 15 minute timer.
 5. Remove disconnected clients from SignalR Groups (by StopId)
 
 ## Frontend:
-1. Add more test coverage
+1. Use a better JS Framework
 
-## Additional Instructions: Focus on Backend
 
 ## Terms used
 1. Route: A Route 

@@ -4,7 +4,7 @@
 1. Restore packages from Nuget
 2. Code developed in .net Core 5 web-Api
 3. RouteStopDa holds generated Data and returns results from Controller
-4. 
+4. Refer Excel file, "Bus stop schedules.xlsx"  for self visualizing the data, which was populated from RouteStopDa file
 
 ## Scope for improvement!
 

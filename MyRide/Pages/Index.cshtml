@@ -1,0 +1,33 @@
+﻿@page
+@model IndexModel
+@{
+    ViewData["Title"] = "My Ride - Schedules";
+}
+@* //source: https://docs.microsoft.com/en-us/aspnet/core/tutorials/signalr?view=aspnetcore-5.0&tabs=visual-studio *@
+
+<div class="container">
+    <div class="row">&nbsp;</div>
+    <div class="row">
+        <div class="col-2">Enter Stop Id</div>
+        <div class="col-4"><input type="text" id="stopId" /></div>
+    </div>
+    <div class="row">&nbsp;</div>
+    <div class="row">
+        <div class="col-6">
+            <input type="button" id="getSchedules" value="Get Schedules" />
+        </div>
+    </div>
+</div>
+<div class="row">
+    <div class="col-12">
+        <hr />
+    </div>
+</div>
+<span id="title">Here are the upcoming services</span>
+<div class="row">
+    <div class="col-6">
+        <ul id="schedulesList"></ul>
+    </div>
+</div>
+<script src="~/lib/microsoft/signalr/dist/browser/signalr.js"></script>
+<script src="~/js/routeStop.js"></script>

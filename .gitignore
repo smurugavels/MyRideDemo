@@ -1,8 +1,0 @@
-#Backend
-/WebApi/.vs/*
-/**/bin/*
-/**/obj/*
-
-#FrontEnd
-/angular-client/dist/*
-/angular-client/node_modules/*
